@@ -17,6 +17,16 @@ body {
       body .container .header-container .search-container {
         text-align: center;
         padding-bottom: 0.3rem; }
+        body .container .header-container .search-container .button-container {
+          margin-top: 0.4rem; }
+          body .container .header-container .search-container .button-container button {
+            height: 4vh;
+            width: 10vw;
+            font-size: 1.1rem;
+            font-family: 'Fjalla One', sans-serif;
+            color: grey;
+            border-radius: 0.4rem;
+            background-color: white; }
         body .container .header-container .search-container #searchText {
           width: 50vw;
           height: 4vh;
@@ -30,8 +40,7 @@ body {
       height: 60vh;
       color: 1px solid green; }
       body .container .tabs-container .item-list-container {
-        margin-top: 2.5rem;
-        border: 1px solid goldenrod; }
+        margin-top: 2.5rem; }
         body .container .tabs-container .item-list-container .item-container .items {
           list-style: none; }
           body .container .tabs-container .item-list-container .item-container .items li {

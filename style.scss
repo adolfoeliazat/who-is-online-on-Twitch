@@ -16,6 +16,18 @@ body {
         font-size: 2.8rem;
       }
       .search-container {
+        .button-container {
+          margin-top: 0.4rem;
+          button {
+            height: 4vh;
+            width: 10vw;
+            font-size: 1.1rem;
+            font-family: 'Fjalla One', sans-serif;
+            color: grey;
+            border-radius: 0.4rem;
+            background-color: white;
+          }
+        }
         text-align: center;
         padding: {
           bottom: 0.3rem;
@@ -39,7 +51,6 @@ body {
       color: 1px solid green;
       .item-list-container {
         margin-top: 2.5rem;
-        border: 1px solid goldenrod;
         .item-container {
           .items {
             list-style: none;
