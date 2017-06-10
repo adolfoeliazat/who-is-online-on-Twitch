@@ -1,0 +1,60 @@
+body {
+  background-color: #413939;
+  height: 100vh;
+  width: 100vw;
+  .container {
+    height: 100vh;
+    width: 100vw;
+    .header-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      h1 {
+        color: pink;
+        font-family: 'Bungee Outline', cursive;
+        font-size: 2.8rem;
+      }
+      .search-container {
+        text-align: center;
+        padding: {
+          bottom: 0.3rem;
+        }
+        margin: {
+        }
+        #searchText {
+          width: 50vw;
+          height: 4vh;
+          text-align: center;
+          font-family: 'Fjalla One', sans-serif;
+          font-size: 1.2rem;
+          color: gray;
+          border-radius: 0.2rem;
+        }
+      }
+    }
+    .tabs-container {
+      width: 100vw;
+      height: 60vh;
+      color: 1px solid green;
+      .item-list-container {
+        margin-top: 2.5rem;
+        border: 1px solid goldenrod;
+        .item-container {
+          .items {
+            list-style: none;
+            li {
+              text-align: center;
+              font-family: 'Bungee Outline', cursive;
+              font-size: 2.2rem;
+              color: pink;
+              a {
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
