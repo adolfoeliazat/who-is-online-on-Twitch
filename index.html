@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <header>
+          <h1>showing who is online on Twitch.</h1>
+          <div class="search-container">
+            <input type="text" id="searchText" placeholder="find someone!">
+          </div>
+        </header>
+      </div>
+      <div class="tabs-container">
+        <div class="tab-menu-container">
+          <ul class="menu">
+            <li><a href="#" data-status="all" class="active menu-item">All</a></li>
+            <li><a href="#" data-status="online" class="menu-item">Online</a></li>
+            <li><a href="#" data-status="offline" class="menu-item">Offline</a></li>
+          </ul>
+        </div>
+        <div class="item-list-container">
+          <div id="all" class="item-container active">
+            <ul>
+            </ul>
+          </div>
+           <div id="online" class="item-container">
+            <ul>
+            </ul>
+          </div>
+           <div id="offline" class="item-container">
+            <ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="index.js"></script>
+  </body>
+</html>
